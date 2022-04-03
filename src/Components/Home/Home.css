@@ -1,0 +1,52 @@
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("LandingBG.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-brown,
+.btn-blue {
+  cursor: pointer !important;
+}
+
+.btn-brown {
+  background-color: #8e7754 !important;
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bold !important;
+}
+.btn-blue {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bold !important;
+}
+.btn-brown:hover,
+.btn-blue:hover {
+  background-color: white !important;
+  color: grey !important;
+  transition: all 0.2s ease-in-out;
+}
+.fa-angles-down {
+  animation-name: upanddown;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  text-align: center !important;
+
+}
+@keyframes upanddown {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}

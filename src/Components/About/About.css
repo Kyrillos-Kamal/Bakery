@@ -1,0 +1,25 @@
+h2,
+p,
+ul,
+li {
+  font-family: sans-serif !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.img-transform-left:hover {
+  transform: scale(1) rotate(-10deg) ;
+  transition:  1s ease ;
+}
+
+.img-transform:hover {
+  transform: scale(1) rotate(10deg) !important;
+  transition:  2s ease;
+}
+.img-transform-clock:hover {
+  transform: scale(1) rotate(360deg) !important;
+  transition:  2s ease ;
+}
+.special-bg{
+  background-color: #F5F5F5;  
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&display=swap");
+
+.bg-nav {
+  background-color: #353330 !important;
+  transition: 1s ease;
+  height: 55px !important;
+}
+.active {
+  background-color: #50493f;
+  border-radius: 10px !important;
+  padding: 8px !important;
+  transition: 2s ease;
+}
+ul li a {
+  font-family: "Road Rage", cursive !important;
+  font-size: 1.5rem !important;
+  color: white !important;
+}
+.pos-index {
+  z-index: 999999999 !important;
+  left: 0 !important;
+  right: 0 !important;
+}
